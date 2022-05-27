@@ -1,0 +1,55 @@
+.containerFooter {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(143, 211, 232);
+    height: 26vh;
+}
+
+.footerSocialButtons {
+    flex-basis: 30vw;
+}
+
+.footerSocialButtons a {
+    text-decoration: none; 
+}
+
+.footerText {
+    color: rgb(255,255,255);
+    font-family: "Proxima-N-W01-Reg";
+    font-size: 1.10vw;
+    font-weight: 400;
+}
+
+.footerItem {
+    padding-top: 11px;
+}
+
+.footerContact {
+    text-align: right;
+    flex-basis: 30vw;
+}
+
+/* Button */
+.chatButton {
+    position: fixed;
+    top: 45vw;
+    right: 10.73vw;
+    width: 6vw;
+}
+
+.chatButton button {
+    background-color: rgb(197, 232, 244);
+    border: none;
+    border-radius: 0.6vw;
+    width: 15vw;
+    height: 5.5vh;
+}
+
+.chatButton h2 {
+    color: rgb(72, 106, 116);
+    font-family: "Chelsea Market";
+    font-size: 0.95vw;
+    font-weight: 400;
+}

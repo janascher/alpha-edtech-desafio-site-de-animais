@@ -1,0 +1,84 @@
+/* ## General ## */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* ## Header ## */
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(247,247,247);
+    height: 32.9vh;
+    padding-top: 0.6vw;
+}
+
+/* # Logo e Social Media # */
+.containerFlex {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex: 1;
+    background-color: white;
+}
+
+.logo svg {
+    fill: rgb(143, 211, 232);
+    padding-top: 0.51vh;
+    width: 4.2vw;
+}
+
+.logo h1 {
+    color: rgb(143, 211, 232);
+    font-family: "Chelsea Market";
+    font-size: 2.93vw;
+    font-weight: 400;
+}
+
+.logo p {
+    color: rgb(143, 211, 232);
+    font-family: "Proxima-N-W01-Reg";
+    font-size: 1.16vw;
+    font-weight: 700;
+    letter-spacing: 0.208vw;
+}
+
+/* Social Media */
+.socialButtons {
+    position: fixed;
+    right: 0.73vw;
+    width: 6vw;
+}
+
+.socialButtons a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+/* Menu */
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(247,247,247);
+    padding: 0.73vw 0;
+}
+
+.menu .item {
+    padding: 0 4.02vw;
+}
+
+.menu .item a {
+    color: rgb(10, 15, 16);
+    font-family: "Proxima-N-W01-Reg";
+    font-size: 1.03vw;
+    text-decoration: none;
+}
+
+.menu .item a:hover {
+    color: rgb(143, 211, 232);
+    transition: .4s ease 0s;
+}
