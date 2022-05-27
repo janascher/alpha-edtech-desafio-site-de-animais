@@ -45,6 +45,7 @@
     color: rgb(255,255,255);
     font-family: "Chelsea Market"; 
     font-size: 5.1vw;
+    font-style: normal;
     font-weight: 400;
 }
 
@@ -52,5 +53,6 @@
     color: rgb(255,255,255);
     font-family: "Proxima-N-W01-Reg";
     font-size: 1.17vw;
+    font-style: normal;
     font-weight: 400;
 }

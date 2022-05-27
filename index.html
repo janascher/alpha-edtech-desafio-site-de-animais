@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+    <!-- Meta -->
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -8,18 +9,39 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="./style/font.css" />
+    <link rel="stylesheet" href="./style/floatButton.css" />
     <link rel="stylesheet" href="./style/header.css" />
     <link rel="stylesheet" href="./style/slide.css" />
     <link rel="stylesheet" href="./style/info.css" />
+    <link rel="stylesheet" href="./style/card.css" />
     <link rel="stylesheet" href="./style/gallery.css" />
     <link rel="stylesheet" href="./style/footer.css" />
 
+    <!-- Title -->
     <title>Ponto Pet</title>
 </head>
 <body>
+    <!-- # Floating Button - Social Media  # -->
+    <div class="socialButtons">
+        <a href="#">
+            <img src="./assets/image/icons/facebook.webp" alt="facebook">
+        </a>
+        <a href="#">
+            <img src="./assets/image/icons/instagram.webp" alt="Instagram">
+        </a>
+        <a href="#">
+            <img src="./assets/image/icons/twitter.webp" alt="twitter">
+        </a>
+        <a href="#">
+            <img src="./assets/image/icons/youtube.webp" alt="Youtube">
+        </a>
+    </div>  
+    
+    <!-- ### Header ### -->
     <header>
-        <!-- Logo -->
+        <!-- # Logo and Social Media # -->
         <section class="containerFlex">
+            <!-- Logo -->
             <div class="logo">
                 <svg preserveAspectRatio="xMidYMid meet" data-bbox="34 22 132 156" xmlns="http://www.w3.org/2000/svg" viewBox="34 22 132 156" role="presentation" aria-hidden="true">
                     <g>
@@ -30,31 +52,11 @@
                 </svg>
                 <h1>Ponto Pet</h1>
                 <p>PET SHOP</p>
-            </div>
-            <!-- Social Media -->
-            <div class="socialButtons">
-                <a href="#">
-                    <img src="./assets/image/icons/facebook.webp" alt="facebook">
-                </a>
-                <a href="#">
-                    <img src="./assets/image/icons/instagram.webp" alt="Instagram">
-                </a>
-                <a href="#">
-                    <img src="./assets/image/icons/twitter.webp" alt="twitter">
-                </a>
-                <a href="#">
-                    <img src="./assets/image/icons/youtube.webp" alt="Youtube">
-                </a>
-            </div>    
+            </div>  
         </section>
-        <!-- Button -->
-        <section class="chatButton">
-            <button>
-                <h2>Vamos conversar por chat!</h2>
-            </button>
-        </section> 
-        <!-- Menu -->
-        <nav class="menu"> <!-- SE DER TEMPO COLOCAR SUBMENU COM JS -->
+      
+        <!-- # Menu # -->
+        <nav class="menu"> <!-- COLOCAR SUBMENU -->
             <div class="item">
                 <a href="#">Home</a>
             </div>
@@ -70,25 +72,26 @@
         </nav>
     </header>
 
+    <!-- ### Main ### -->
     <main>
-        <!-- Slide -->
+        <!-- # Slide Section # -->
         <section id="slideBG" >
             <div class="slideText">
                 <h1>Nós sabemos que ele é da família.</h1>
                 <span>Sou um subtítulo. Clique aqui para editar. É fácil!</span>
             </div>
         </section>
-
-        <!-- Information -->
+        <!-- # Information Section # -->
         <section class="containerInfoFlex">
             <div class="infoText">
                 <h2>Temos tudo o que seu pet precisa.</h2>
                 <span>Sou um subtítulo. Clique aqui para editar e contar aos seus clientes um pouco sobre você.</span>
             </div>
         </section>
-        <!-- Card -->
+        <!-- # Card # -->
         <section class="containerInfoCard">
             <section class="infoCard">
+                <!-- Card our story -->
                 <div class="cardItem">
                     <div class="iconCard">
                         <svg preserveAspectRatio="xMidYMid meet" data-bbox="18 29.5 163.901 141" xmlns="http://www.w3.org/2000/svg" viewBox="18 29.5 163.901 141" role="presentation" aria-hidden="true">
@@ -100,13 +103,13 @@
                     </div>
                     <div>
                         <h6>Nossa História</h6>
-                    <p>Sou um parágrafo. Clique aqui para adicionar o seu próprio texto.</p>
+                        <p>Sou um parágrafo. Clique aqui para adicionar o seu próprio texto.</p>
                     </div>
                     <button>
                         <a href="#">Veja mais >></a>
                     </button>
                 </div>
-            
+                <!-- Card what we do -->
                 <div class="cardItem">
                     <div class="iconCard">
                         <svg preserveAspectRatio="xMidYMid meet" data-bbox="4.999 13.89 190.045 172.11" xmlns="http://www.w3.org/2000/svg" viewBox="4.999 13.89 190.045 172.11" role="presentation" aria-hidden="true">
@@ -127,7 +130,7 @@
                         <a href="#">Veja mais >></a>
                     </button>
                 </div>
-
+                <!-- Card Agenda -->
                 <div class="cardItem">
                     <div class="iconCard">
                         <svg class="width" preserveAspectRatio="xMidYMid meet" data-bbox="20 20 160 160" xmlns="http://www.w3.org/2000/svg" viewBox="20 20 160 160" role="presentation" aria-hidden="true">
@@ -139,7 +142,7 @@
                     </div>
                     <div>
                         <h6>Agende!</h6>
-                    <p>Sou um parágrafo. Clique aqui para adicionar o seu próprio texto.</p>
+                        <p>Sou um parágrafo. Clique aqui para adicionar o seu próprio texto.</p>
                     </div>
                     <button>
                         <a href="#">Veja mais >></a>
@@ -148,7 +151,7 @@
             </section>        
         </section>
 
-        <!-- Galeria -->
+        <!-- # Galeria # -->
         <section class="containerGallery">
             <a class="galleryItens" href="./assets/image/picture/animals1.webp">
                 <img src="./assets/image/picture/animals1.webp" alt="Animal1">
@@ -187,35 +190,43 @@
                 <img src="./assets/image/picture/animals12.webp" alt="animals12">
             </a>
         </section>
-
-        <footer class="containerFooter">
-            <!-- Social Media -->
-            <section class="footerSocialButtons">
-                <p class="footerText">Ponto pet ​© 2021 | Orgulhosamente criado com Wix.com</p>
-                <div class="footerItem">
-                    <a href="#">
-                        <img src="./assets/image/icons/facebook-white.webp" alt="Facebook">
-                    </a>
-                    <a href="#">
-                        <img src="./assets/image/icons/instagram-white.webp" alt="Instagram">
-                    </a>
-                    <a href="#">
-                        <img src="./assets/image/icons/twitter-white.webp" alt="twitter">
-                    </a>
-                    <a href="#">
-                        <img src="./assets/image/icons/youtube-white.webp" alt="Youtube">
-                    </a>
-                </div>
-            </section>
-            <!-- Contact -->
-            <section class="footerContact">
-                <div class="footerItem">
-                    <p class="footerText">(11) 3456-7890 | (11) 3456-7890</p>
-                    <p class="footerText">info@meusite.com</p>
-                    <p class="footerText">Av. Bernardino de Campos, 98 • São Paulo/SP</p>
-                </div>
-            </section>
-        </footer>
     </main>
+
+    <!-- ### Footer ### -->
+    <footer class="containerFooter">
+        <!-- # Social Media # -->
+        <section class="footerSocialButtons">
+            <p class="footerText">Ponto pet ​© 2021 | Orgulhosamente criado com Wix.com</p>
+            <div class="footerItem">
+                <a href="#">
+                    <img src="./assets/image/icons/facebook-white.webp" alt="Facebook">
+                </a>
+                <a href="#">
+                    <img src="./assets/image/icons/instagram-white.webp" alt="Instagram">
+                </a>
+                <a href="#">
+                    <img src="./assets/image/icons/twitter-white.webp" alt="twitter">
+                </a>
+                <a href="#">
+                    <img src="./assets/image/icons/youtube-white.webp" alt="Youtube">
+                </a>
+            </div>
+        </section>
+        <!-- # Contact # -->
+        <section class="footerContact">
+            <div class="footerItem">
+                <p class="footerText">(11) 3456-7890 | (11) 3456-7890</p>
+                <p class="footerText">info@meusite.com</p>
+                <p class="footerText">Av. Bernardino de Campos, 98 • São Paulo/SP</p>
+            </div>
+        </section>
+    </footer>
+
+    <!-- # Floating Button - Chat # -->
+    <div class="chatButton">
+        <button>
+            <h2>Vamos conversar por chat!</h2>
+        </button>
+    </div>
 </body>
 </html>
