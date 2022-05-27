@@ -1,0 +1,104 @@
+/* Container Text */
+.containerInfoFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;   
+    margin: 0 auto;
+    margin-top: 5vw;
+    margin-bottom: 2vw;
+    height: 15vh;
+    width: 144vmin;
+}
+
+.infoText h2 {
+    color: rgb(143, 211, 232);
+    font-family: "Chelsea Market";
+    font-size: 2.56vw;
+    font-weight: 400;
+}
+
+.infoText h6 {
+    font-family: "Chelsea Market";
+    font-size: 1.17vw;
+    font-weight: 400;
+}
+
+.infoText span {
+    color: rgb(102,101,101);
+    font-family: "Proxima-N-W01-Reg";
+    font-size: 1.17vw;
+    font-weight: 400;
+}
+
+/* Container Card */
+.containerInfoCard {
+    height: 62vh;
+    text-align: center;    
+}
+
+/* Card */
+.infoCard {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cardItem {
+    flex-basis: 18vw;
+}
+
+.iconCard {
+    margin: 18px 0;
+}
+
+.cardItem svg {
+    fill: rgb(143, 211, 232);
+    width: 4.6vw;
+}
+
+.cardItem h6 {
+    color: rgb(143, 211, 232);
+    font-family: "Chelsea Market";
+    font-size: 1.61vw;
+    font-weight: 400;
+    margin-bottom: 1.6vh;
+}
+
+.cardItem p {
+    color: rgb(102,101,101);
+    font-family: "Proxima-N-W01-Reg";
+    font-size: 1.1vw;
+    font-weight: 400;
+    line-height: 1.5em;
+}
+
+.cardItem .width {
+    fill: rgb(143, 211, 232);
+    width: 4.4vw;
+}
+
+.infoLink {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5.05vh;
+    width: 11vw;
+}
+
+.cardItem button {
+    background-color: rgb(143, 211, 232);
+    border: none;
+    margin-top: 22px;
+    width: 11vw;
+    height: 4vh;
+}
+
+.cardItem button a {
+    color: rgb(255, 255, 255);
+    font-family: "Proxima-N-W01-Reg";
+    font-size: 1.02vw;
+    font-weight: 400vw;
+    text-decoration: none;
+}

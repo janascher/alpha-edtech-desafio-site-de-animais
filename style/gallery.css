@@ -1,0 +1,22 @@
+.containerGallery {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryItens {
+    height: 24vh;
+    width: 16%;
+    flex-grow: 1;
+}
+
+.galleryItens img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    flex-grow: 1;
+}
+
+.galleryItens img:hover {
+    opacity: 0.5;
+    transition-duration: 1s;
+}

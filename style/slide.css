@@ -1,0 +1,56 @@
+#slideBG {
+    display: flex;
+    justify-content: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    backface-visibility: hidden;
+    animation: slideBG 8s linear infinite 0s;
+    animation-timing-function: linear;
+    background-image: url("../assets/image/background/background-black-dog.jpg");
+    width: 100%;
+    height: 100vh;
+}
+
+@keyframes slideBG {
+    0% {
+        background-image: url("../assets/image/background/background-black-dog.jpg");
+    }
+
+    50% {
+        background-image: url("../assets/image/background/background-cat.jpg");
+    }
+
+    100% {
+        background-image: url("../assets/image/background/background-white-dog.jpg");
+    }
+}
+
+.slideText {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 100vh;
+}
+
+.slideText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2.93vw;
+    text-align: center;
+}
+
+.slideText h1 {
+    color: rgb(255,255,255);
+    font-family: "Chelsea Market"; 
+    font-size: 5.1vw;
+    font-weight: 400;
+}
+
+.slideText span {
+    color: rgb(255,255,255);
+    font-family: "Proxima-N-W01-Reg";
+    font-size: 1.17vw;
+    font-weight: 400;
+}
